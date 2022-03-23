@@ -22,7 +22,7 @@ describe('Testando o componente About', () => {
     expect(secondP).toBeInTheDocument();
   });
 
-  it('Testa se a página contém dois parágrafos com texto sobre a Pokédex', () => {
+  it('Testa se a página contém a imagem do Pokédex', () => {
     const { history } = renderWithRouter(<App />);
     history.push('/about');
 

@@ -9,7 +9,6 @@ describe('Testando o componente App', () => {
     renderWithRouter(<App />);
     const headingPoke = screen.getByRole('heading', { level: 1, name: /Pokédex/i });
     expect(headingPoke).toBeInTheDocument();
-    screen.logTestingPlaygroundURL();
 
     const homeLink = screen.queryByRole('link', { name: /home/i });
     userEvent.click(homeLink);
