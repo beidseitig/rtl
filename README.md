@@ -15,7 +15,6 @@ Front-end:
 
 > Frontend
 ```bash
-cd src/
 npm install
 ``` 
 
